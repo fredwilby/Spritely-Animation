@@ -1,0 +1,250 @@
+body {
+  font-family: "Helvetica Neue", Helvetica; }
+
+.animContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  min-height: 600px;
+  width: 100%;
+  background-color: #7636B2;
+  background-image: radial-gradient(#7636B2, #573474);
+  text-align: center; }
+  .animContainer h1, .animContainer h2, .animContainer h3 {
+    color: #62F978;
+    font-family: "Rancho", cursive; }
+  .animContainer h1 {
+    text-shadow: 2px 2px 0px #3E944B;
+    font-size: 5rem;
+    margin-top: 2rem; }
+    @media (max-width: 650px) {
+      .animContainer h1 {
+        font-size: 3.5rem; } }
+  .animContainer h3 {
+    text-shadow: 2px 2px 0px #3E944B;
+    font-size: 3rem;
+    margin-bottom: 0; }
+    @media (max-width: 650px) {
+      .animContainer h3 {
+        font-size: 3rem; } }
+  .animContainer .intro {
+    margin-top: 8rem; }
+    @media (max-width: 650px) {
+      .animContainer .intro {
+        margin-top: .5rem; } }
+  .animContainer .scene1, .animContainer .scene2, .animContainer .scene3, .animContainer .end-content {
+    display: none; }
+  .animContainer .scene2 {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 5rem;
+    position: relative; }
+    .animContainer .scene2 .images {
+      max-width: 150px;
+      margin: auto;
+      position: relative;
+      top: 0px; }
+    .animContainer .scene2 .base {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 5; }
+    .animContainer .scene2 .hours, .animContainer .scene2 .minCont {
+      z-index: 1;
+      position: absolute;
+      top: 55px;
+      left: 23px;
+      background-color: #e6e6e6;
+      padding-left: 8px;
+      padding-right: 8px; }
+    .animContainer .scene2 .minCont {
+      left: 69px;
+      max-height: 150px;
+      overflow: hidden; }
+    .animContainer .scene2 .minutes {
+      position: relative;
+      top: 0;
+      left: 0; }
+    .animContainer .scene2 .save {
+      position: absolute;
+      top: 268px;
+      left: 9px;
+      z-index: 15;
+      display: none; }
+    .animContainer .scene2 .day-toprow, .animContainer .scene2 .days .mon, .animContainer .scene2 .days .tue, .animContainer .scene2 .days .wed, .animContainer .scene2 .days .thu, .animContainer .scene2 .days .fri {
+      position: absolute;
+      top: 157px;
+      z-index: 15; }
+    .animContainer .scene2 .days img {
+      display: none; }
+    .animContainer .scene2 .days .mon {
+      left: 25px; }
+    .animContainer .scene2 .days .tue {
+      left: 57px; }
+    .animContainer .scene2 .days .wed {
+      left: 89px; }
+    .animContainer .scene2 .days .thu {
+      left: 121px; }
+    .animContainer .scene2 .days .fri {
+      top: 184px;
+      left: 40px; }
+    .animContainer .scene2 h3 {
+      position: absolute;
+      top: 318px;
+      text-shadow: none; }
+      @media (max-width: 410px) {
+        .animContainer .scene2 h3 {
+          font-size: 2rem; } }
+    @media (max-width: 410px) {
+      .animContainer .scene2 {
+        margin-top: 1rem; } }
+  .animContainer .scene3 {
+    margin: auto;
+    margin-top: 3rem;
+    position: relative;
+    max-width: 450px;
+    text-align: center; }
+    .animContainer .scene3 .images {
+      max-width: 400px;
+      position: relative;
+      margin: auto; }
+      .animContainer .scene3 .images img {
+        display: none; }
+    .animContainer .scene3 .end {
+      display: none; }
+    .animContainer .scene3 .frame2, .animContainer .scene3 .mattress2 {
+      position: absolute;
+      top: 0px;
+      left: 65px;
+      z-index: 1;
+      width: 350px; }
+    .animContainer .scene3 .sensor2 {
+      z-index: 2;
+      position: absolute;
+      top: 170px;
+      left: 130px; }
+    .animContainer .scene3 .mattress2 {
+      z-index: 3; }
+    .animContainer .scene3 .hugh-mann {
+      z-index: 4;
+      position: absolute;
+      top: 110px;
+      left: 120px; }
+    .animContainer .scene3 .nightstand2 {
+      position: absolute;
+      left: 0;
+      top: 150px;
+      z-index: 5; }
+    .animContainer .scene3 .alarm {
+      position: absolute;
+      top: 136px;
+      left: 25px;
+      z-index: 6; }
+    .animContainer .scene3 h3 {
+      position: absolute;
+      top: 350px;
+      text-shadow: none; }
+      @media (max-width: 410px) {
+        .animContainer .scene3 h3 {
+          font-size: 2rem;
+          top: 250px; } }
+    @media (max-width: 410px) {
+      .animContainer .scene3 .frame2, .animContainer .scene3 .mattress2 {
+        width: 250px; }
+      .animContainer .scene3 .hugh-mann {
+        width: 137px;
+        top: 85px;
+        left: 100px; }
+      .animContainer .scene3 .nightstand2 {
+        width: 64px;
+        left: 23px;
+        top: 110px; }
+      .animContainer .scene3 .sensor2 {
+        width: 95px;
+        top: 135px;
+        left: 125px; }
+      .animContainer .scene3 .alarm {
+        width: 52px;
+        top: 98px;
+        left: 37px; } }
+  .animContainer .scene1 {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 3rem;
+    position: relative; }
+    .animContainer .scene1 img {
+      display: none; }
+    .animContainer .scene1 .frame, .animContainer .scene1 .mattress {
+      position: absolute;
+      top: 0px;
+      left: 65px;
+      z-index: 1;
+      width: 350px; }
+    .animContainer .scene1 .mattress {
+      z-index: 8; }
+    .animContainer .scene1 .nightstand {
+      position: absolute;
+      top: 150px;
+      left: 0px;
+      z-index: 10;
+      width: 89px; }
+    .animContainer .scene1 .sensor {
+      z-index: 15;
+      position: absolute;
+      top: 275px;
+      left: -10px; }
+    .animContainer .scene1 h3 {
+      position: absolute;
+      top: 350px;
+      text-shadow: none; }
+      @media (max-width: 410px) {
+        .animContainer .scene1 h3 {
+          font-size: 2rem;
+          top: 250px; } }
+    @media (max-width: 410px) {
+      .animContainer .scene1 .frame, .animContainer .scene1 .mattress {
+        width: 250px; }
+      .animContainer .scene1 .sensor {
+        width: 95px;
+        top: 225px; }
+      .animContainer .scene1 .nightstand {
+        width: 64px;
+        left: 20px;
+        top: 120px; } }
+  .animContainer .end-content {
+    margin-top: 5rem; }
+    .animContainer .end-content h3 {
+      max-width: 800px;
+      margin: auto;
+      margin-bottom: 2rem; }
+      @media (max-width: 400px) {
+        .animContainer .end-content h3 {
+          font-size: 2rem; } }
+    .animContainer .end-content .button {
+      max-width: 200px;
+      margin: auto;
+      margin-top: 2rem;
+      border: 2px solid #62F978;
+      padding: 5px;
+      border-radius: 8px; }
+      .animContainer .end-content .button:hover {
+        color: #7636B2;
+        background-color: #62F978;
+        cursor: pointer; }
+    .animContainer .end-content p {
+      max-width: 800px;
+      margin: auto;
+      margin-top: 1em;
+      color: #62F978;
+      font-family: "Rancho", cursive;
+      font-size: 2rem; }
+      .animContainer .end-content p .icon {
+        padding-right: .5rem;
+        vertical-align: middle; }
+      @media (max-width: 400px) {
+        .animContainer .end-content p {
+          font-size: 1.25rem; } }
+    @media (max-width: 610px) {
+      .animContainer .end-content {
+        margin-top: 0; } }
